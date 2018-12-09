@@ -15,14 +15,23 @@ header {
   
 }
 
+nav {
+  width: 80vw;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 header img {
   display: inline-block;
   background: #000;
-  margin: 15px 5px 15px 20%;
+  margin: 15px 5px 15px 0px;
 }
 
 nav ul {
   vertical-align: top;
+
 }
 
 header ul, header ul li {
@@ -30,14 +39,14 @@ header ul, header ul li {
 }
 
 header ul li {
-  line-height: 70px;
+  line-height: 100px;
   padding: 0px 34px;
   color: white;
 }
 
 main {
   margin: 0px 0px;
-  width: 80%;
+  width: 80vw;
   max-width: 960px;
   margin-top: 100px;
   margin-left: auto;
@@ -45,9 +54,11 @@ main {
 
 }
 
-main > img {
+main > img:first-child {
   margin-top: 30px;
-  width: 100%;
+  margin-bottom: 3%;
+  width: 80vw;
+  max-width: 960px;
 }
 
 main ul {
@@ -59,7 +70,10 @@ main ul {
 
 main ul li {
   display: inline-block;
-  margin: 30px 30px 30px 0px;
+  margin: 0px 3.125% 3.125% 0px;
+  width: 25vw;
+  font-size: 0px;
+  max-width: 300px;
 }
 
 main ul li img {
@@ -67,10 +81,38 @@ main ul li img {
 }
 
 main ul li:last-child {
-  margin: 30px 0px;
+  margin-right: 0px;
 }
 
-main > img:last-child {
-  margin-top: 0px;
-  width: 50%;
+main #smaller-image {
+  width: 40vw;
+  max-width: 480px;
+  margin-right: 3.125%;
+}
+
+main > section {
+  position: relative;
+  height: 33.333vw;
+  max-height: 400px;
+}
+
+main > section > section {
+  display: inline-block;
+  width: 33.333vw;
+  max-width: 
+  height: 70%;
+  margin-bottom: 60px;
+}
+
+main section button {
+  color: white;
+  background: black;
+}
+
+p {
+  /* display: block; */
+  overflow: scroll;
+  height: 80%;
+  font-size: 18px;
+
 }
